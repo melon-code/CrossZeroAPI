@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossZeroAPI", "CrossZeroAPI\CrossZeroAPI.csproj", "{7BBD2BA8-F454-431F-B3DE-C7C52D61BAD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossZeroAPITests", "CrossZeroAPITests\CrossZeroAPITests.csproj", "{06641E1A-8E2F-42FB-974C-7601E1600572}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7BBD2BA8-F454-431F-B3DE-C7C52D61BAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BBD2BA8-F454-431F-B3DE-C7C52D61BAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BBD2BA8-F454-431F-B3DE-C7C52D61BAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06641E1A-8E2F-42FB-974C-7601E1600572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06641E1A-8E2F-42FB-974C-7601E1600572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06641E1A-8E2F-42FB-974C-7601E1600572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06641E1A-8E2F-42FB-974C-7601E1600572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
