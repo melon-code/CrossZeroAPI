@@ -11,7 +11,7 @@ namespace CrossZeroAPITests {
 
         }
 
-        public override void RenderLastFieldAndResult(EndResult result) {
+        public override void RenderLastFieldAndResult(ReadOnlyTable gameField, EndResult result) {
             Result = result;
         }
 

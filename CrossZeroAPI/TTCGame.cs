@@ -13,8 +13,8 @@ namespace CrossZeroAPI {
         TTCGameField field;
         TTCPlayersEnumeration players;
 
-        Marks CurrentMark => players.CurrentMark;
         IPlayer CurrentPlayer => players.Current;
+        public Marks CurrentMark => players.CurrentMark;
         public bool IsEnd => field.IsEnd;
         public ReadOnlyTable GameField => field.Grid;
 
