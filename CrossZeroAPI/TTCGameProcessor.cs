@@ -41,6 +41,10 @@ namespace CrossZeroAPI {
                 throw new ArgumentException(winnerException);
         }
 
+        public async void PlayAsync() {
+            await Task.Run(() => Play());
+        }
+
         protected bool TryGetGameField(out ReadOnlyTable result) {
             if (grid != null) {
                 result = grid;
